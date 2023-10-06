@@ -1,0 +1,130 @@
+.container {
+    margin: 0;
+    padding: 0;
+    background: url('../../Assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center center;
+    height: 100vh; 
+    width: 100vw;
+    
+    
+}
+.input-field{
+    width: 50%;
+    height: 20px;
+    margin-left: 300px;
+    margin-top: 20px;
+    background-color: #1C1C1C;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.scearchButton{
+    background: transparent;
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+    padding: 0; 
+    margin-left: 10px;
+    transition: trasform 0.3 ease;
+}
+.container-scearch{
+    margin-left: 950px;
+    margin-top: -25px;
+}
+
+.weather-data{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    flex-direction: column;
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Faz com que ocupe toda a altura da tela */
+    margin-left: 520px;
+    margin-top: 30px;
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+.temperature-text {
+    font-size: 50px;
+    margin-top: 10px;
+    color: white
+}
+.city-name {
+    font-size: 30px;
+    margin-top: -20px;
+    color: white;
+}
+.description {
+    color: white;
+}
+.card-conteiner {
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    margin-left: 900px;
+    border-radius: 10px;
+    margin-top: -290px;
+}
+.humity {
+    color: white;
+    font-size: 20px;
+    flex-direction: row;
+   
+}
+.wind{
+    margin-top: 318px;
+    color: white;
+    font-size: 20px;
+}
+
+.Temp-Max {
+    margin-top: 318px;
+    color: white;
+    
+    
+
+}
+
+.Temp-Min {
+    margin-top: 318px;
+    color: white;
+    
+
+}
+
+
+
+.scearchButton:hover {
+    transform: scale(1.2);
+
+}
+
+.animate-up {
+    animation: slide-up 0.5s ease-in-out; /* Duração e função de temporização da animação */
+}
+
+@keyframes slide-up {
+    from {
+      transform: translateY(100px); /* Posição inicial (abaixo) */
+      opacity: 0; /* Começa invisível */
+    }
+    to {
+      transform: translateY(0); /* Posição final (normal) */
+      opacity: 1; /* Fica visível */
+    }
+}
+
+
+  
+  
+  
+  
+  
+  
